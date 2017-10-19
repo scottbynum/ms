@@ -1,10 +1,8 @@
 # Texas Woman's University HTML
 
-I'm changing this file just to see how pull requests work on GitHub.
+Maybe simple changes to a text file don't cause conflicts because they're easy to resolve. What about adding an image?
 
-Another to change to create a conflict with the file in the remote repository on GitHub. Will this text cause a conflict? No, it won't. Why not?
-
-How about this? Or this?
+![a picture of a Ph.D. student](https://twu.edu/media/images/news/abreu_thumb.jpg)
 
 So, did adding a photo to the file on GitHub cause a conflict that can't easily be resolved?
 
