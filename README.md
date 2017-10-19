@@ -1,6 +1,10 @@
 # Texas Woman's University HTML
 
-I'm changing this file just to see how pull requests work on GitHub.
+Maybe simple changes to a text file don't cause conflicts because they're easy to resolve. What about adding an image?
+
+![a picture of a Ph.D. student](https://twu.edu/media/images/news/abreu_thumb.jpg)
+
+So, did adding a photo to the file on GitHub cause a conflict that can't easily be resolved?
 
 Here is a brief step by step process of setting up the project for compiling.
 
