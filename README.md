@@ -2,6 +2,8 @@
 
 I'm changing this file just to see how pull requests work on GitHub.
 
+![17-twu-0027_brand-launch_app-icons_152x152](https://user-images.githubusercontent.com/3957145/31792948-59c20c88-b4e3-11e7-9474-92ecc4fc094f.png)
+
 I'm trying to create a conflict between my local repository and the GitHub repository — a change for change's sake. 
 
 Here is a brief step by step process of setting up the project for compiling.
