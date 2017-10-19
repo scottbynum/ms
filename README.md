@@ -2,7 +2,7 @@
 
 I'm changing this file just to see how pull requests work on GitHub.
 
-A change for change's sake. 
+I'm trying to create a conflict between my local repository and the GitHub repository — a change for change's sake. 
 
 Here is a brief step by step process of setting up the project for compiling.
 
