@@ -1,0 +1,71 @@
+.story-date {
+  display: inline;
+  font-weight: $bold;
+}
+
+.news--listing {
+  overflow: hidden;
+  padding-bottom: 3.5em;
+}
+
+// News teaser
+h3 a:not([class]) {
+    background-image: -webkit-linear-gradient(rgba(133, 9, 40, .8), rgba(133, 9, 40, .8));
+    background-image: linear-gradient(rgba(133, 9, 40, .8), rgba(133, 9, 40, .8))
+}
+h3 a:not([class]):hover {
+    background-position: 0 85%;
+}
+
+// Teaser 2016
+.stories {
+    clear: both;
+    display: table-row;
+    display: table;
+    margin-bottom: 2em;
+ 	img {
+    	width: 125px;
+    	height: auto;
+    	float: left;
+    	margin-top: .45em;
+    	margin-right: 1.25em;
+   	}   
+}
+
+// Teaser and full story
+.news--listing__heading {
+    margin-bottom: 1.1rem;
+	a {
+    	color: $maroon;
+    	text-decoration: none !important;
+    	font-size: 3rem;
+    	line-height: 1.25em;
+	}
+	a:hover {
+    	text-decoration: underline !important;
+	}
+}
+.news--listing__listing-image {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 1.25em !important;
+    margin-top: .6em;
+}
+
+// News top stories - Alignment fix
+.top-stories .col-sm-6:nth-child(2n+3) {
+    clear: left;
+}
+
+// Featured news listing - Clear the 4th item in the listing returned
+.feature__col:nth-child(3n+4) {
+    clear: both;
+}
+
+// Featured news - Add a clearfix on the whole section
+.section__featured-news:after {
+    display: table;
+    content: "";
+    clear: both;
+}

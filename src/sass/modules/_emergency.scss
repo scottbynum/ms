@@ -1,0 +1,46 @@
+#emergency {
+  text-align: center;
+  padding: 0em;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  background-color: #c00;
+  color: $white;	
+  h2 {
+  	font-size: 2.5em;
+  	color: $white;
+  	padding-top: .5em;
+  	margin-top: .0025em;
+	}
+  p {
+  	margin-bottom: 0em;
+  	padding-bottom: 1.25em;
+	}
+  a {
+	color: $white;
+	text-decoration: underline;
+	font-weight: bold;
+	}
+}
+
+#notice {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  background-color: $gray-lighter;
+  color: $gray-dark;
+  padding-bottom: 1.75em;
+  h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: $blue-dark;
+    margin-top: .5em;
+    margin-bottom: .65em;
+  }
+  p {
+    line-height: 2rem;
+  }
+  a {
+    text-decoration: underline;
+  }
+}

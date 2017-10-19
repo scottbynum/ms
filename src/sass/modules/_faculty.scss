@@ -1,0 +1,30 @@
+// Faculty Listing
+.photo-left {
+  padding-right: 1em;
+}
+.photo-right {
+  padding-left: 1em;
+}
+.faculty-staff {
+  padding-top: 1rem;
+}
+.faculty-staff:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 1rem;
+}
+@media (max-width:768px) {
+  .photo-left {
+  padding-right: 0em;
+}
+ .photo-right {
+  padding-left: 0em;
+}
+}
+
+// Nursing site faculty names
+  .p--x-large {
+  font-weight: bold;
+  font-size: 140%;
+}

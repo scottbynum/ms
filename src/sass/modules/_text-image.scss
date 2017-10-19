@@ -1,0 +1,76 @@
+// Hides images in Text content type
+.hide-image img {
+	display: none;
+}
+
+// Text with Image
+figure {
+  display: table;
+  img {
+  	display: block;
+  	width: 100%;
+	}
+}
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: .5em;
+}
+.section {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  display: block;
+}
+.align-left,.align-right {
+  margin-bottom: 1.25rem
+}
+@media (min-width: 48em) {
+  .align-left,.align-right {
+  max-width: 50%
+}
+}
+@media (min-width: 48em) {
+  .align-left {
+  margin-right: 1.25rem;
+  float: left
+}
+}
+@media (min-width: 48em) {
+  .align-right {
+  margin-left: 1.25rem;
+  float: right
+}
+}
+
+// Image
+.image-only {
+  padding-bottom: 2em;
+}
+figcaption {
+  color: #888;
+  font-size: .85em;
+}
+.align-center img {
+  margin: 0 auto 1.25rem auto;
+}
+
+// Text Fullwidth and Table Fullwidth
+.fullwidth {
+  padding: 0em 1.5em 3em 1.5em;
+  }
+@media (max-width:768px) {
+  .fullwidth {
+  padding-bottom: 2em;
+}
+}
+
+// Text with Image Fullwidth
+.fullwidth-image {
+  padding: 0em .5em 3em .5em;
+}
+.fullwidth-image:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 1rem;
+}
