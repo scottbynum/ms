@@ -2,7 +2,7 @@
 
 I'm changing this file just to see how pull requests work on GitHub.
 
-Another to change to create a conflict with the file in the remote repository on GitHub. Will this text cause a conflict?
+Another to change to create a conflict with the file in the remote repository on GitHub. Will this text cause a conflict? No, it won't. Why not?
 
 How about this?
 
