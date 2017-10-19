@@ -6,6 +6,8 @@ Another to change to create a conflict with the file in the remote repository on
 
 How about this? Or this?
 
+So, did adding a photo to the file on GitHub cause a conflict that can't easily be resolved?
+
 Here is a brief step by step process of setting up the project for compiling.
 
 1. Install [NPM](https://www.npmjs.com/)
