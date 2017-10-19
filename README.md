@@ -2,6 +2,8 @@
 
 I'm changing this file just to see how pull requests work on GitHub.
 
+Another to change to create a conflict with the file on GitHub.
+
 Here is a brief step by step process of setting up the project for compiling.
 
 1. Install [NPM](https://www.npmjs.com/)
